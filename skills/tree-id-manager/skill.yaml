@@ -1,0 +1,19 @@
+name: tree-id-manager
+description: Manage Tree Identity landing pages, sections, entities, and templates via REST API
+version: 1.0.0
+
+config:
+  tree_id_url:
+    description: "Tree Identity base URL (e.g., https://tree-id.dev)"
+    required: true
+  tree_id_api_key:
+    description: "GoClaw API key for tree-id (Bearer token)"
+    required: true
+
+tools:
+  - web_fetch
+
+tags:
+  - landing-page
+  - content-management
+  - tree-identity
